@@ -5,7 +5,7 @@
     <label>Cotton Pod</label>
     <description>Raw cotton, which can be processed into fiber.</description>
     <graphicData>
-      <texPath>Things/Item/Resources/ComponentIndustrial</texPath>
+      <texPath>Things/Item/Resource/CottonPod</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
     <soundInteract>Metal_Drop</soundInteract>
