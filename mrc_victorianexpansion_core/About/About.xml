@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ModMetaData>
-
-  <!-- content goes here -->
-
-</ModMetaData>
+  <ModMetaData>
+    <packageId>MRC.VXCore</packageId>
+    <name>Victorian Expansion - Core</name>
+    <author>MaroChunagon</author>
+    <!--<url></url>-->
+    <description>hoge hoge</description>
+    <supportedtVersions>
+      <li>1.6</li>
+    </supportedtVersions>
+  </ModMetaData>
