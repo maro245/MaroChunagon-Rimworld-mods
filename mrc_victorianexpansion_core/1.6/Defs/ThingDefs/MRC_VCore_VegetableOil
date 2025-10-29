@@ -1,0 +1,21 @@
+<ThingDef ParentName="PlantFoodRawBase">
+<defName>MRC_VCore_VegetableOil</defName>
+<label>Vegetable Oil</label>
+<description>Oil extracted from seeds or other parts of plants.</description>
+<graphicData>
+  <texPath>Things/Item/Resource/VegetableOil</texPath>
+  <graphicClass>Graphic_StackCount</graphicClass>
+</graphicData>
+<stackLimit>75</stackLimit>
+<healthAffectsPrice>true</healthAffectsPrice>
+<statBases>
+  <MaxHitPoints>100</MaxHitPoints>
+  <MarketValue>2</MarketValue>
+  <Mass>0.024</Mass>
+  <Flammability>0.6</Flammability>
+  <DeteriorationRate>0.5</DeteriorationRate>
+</statBases>
+<intricate>true</intricate>
+<thingCategories>
+  <li>Manufactured</li>
+</thingCategories>
