@@ -1,0 +1,30 @@
+<defName>MRC_VCore_Make_ClothManual5</defName>
+<label>make cloth and vegetable oil from cotton pods</label>
+<description>Make cloth and vegetable oil from cotton pods.</description>
+<jobSrting>Making cloth and vegetable oil from cotton pods.</jobSrting>
+<effectWorking>HOGEHOGE</effectWorking>
+<soundWorking>HOGEHOGE</soundWorking>
+<workSkill>HOGEHOGE</workSkill>
+<workAmount>615</workAmount>
+<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+<recipeUsers>
+  <li>CraftingSpot</li>
+</recipeUsers>
+<ingredients>
+  <li>
+    <filter>
+      <thingDefs>
+        <li>MRC_VCore_CottonPod</li>
+      </thingDefs>
+    </filter>
+    <count>5</count>
+  </li>
+<liingredients>
+<fixedIngredientFilter>
+  <thingDefs>
+    <li>MRC_VCore_CottonPod</li>
+  </thingDefs>
+</fixedIngredientFilter>
+<products>
+  HOGEHOGE
+</products>
