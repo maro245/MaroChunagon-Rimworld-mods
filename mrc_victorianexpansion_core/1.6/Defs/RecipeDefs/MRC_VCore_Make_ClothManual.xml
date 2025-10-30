@@ -31,14 +31,8 @@
       </thingDefs>
     </fixedIngredientFilter>
     <products>
-      <li>
-        <thingDef>Cloth</thingDef>
-        <count>5</count>
-      </li>
-      <li>
-        <thingDef>MRC_VCore_VegetableOil</thingDef>
-        <count>1</count>
-      </li>
+      <li><Cloth>5</Cloth></li>
+      <li><MRC_VCore_VegetableOil>1</MRC_VCore_VegetableOil></li>
     </products>
   </RecipeDef>
 
@@ -62,14 +56,8 @@
       </thingDefs>
     </fixedIngredientFilter>
     <products>
-      <li>
-        <thingDef>Cloth</thingDef>
-        <count>25</count>
-      </li>
-      <li>
-        <thingDef>MRC_VCore_VegetableOil</thingDef>
-        <count>7</count>
-      </li>
+      <Cloth>25</Cloth>
+      <MRC_VCore_VegetableOil>7</MRC_VCore_VegetableOil>
     </products>
   </RecipeDef>
 </Defs>
