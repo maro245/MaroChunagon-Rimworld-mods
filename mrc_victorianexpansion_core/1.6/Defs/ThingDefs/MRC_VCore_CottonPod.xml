@@ -6,6 +6,7 @@
     <description>Raw cotton, which can be processed into fiber.</description>
     <graphicData>
       <texPath>Things/Item/Resource/PlantFoodRaw/CottonPod</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
     <stackLimit>75</stackLimit>
     <statBases>
