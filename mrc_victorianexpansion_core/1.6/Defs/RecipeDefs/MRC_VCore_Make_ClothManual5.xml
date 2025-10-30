@@ -5,46 +5,55 @@
     <label>Made cloth and vegetable oil from cotton pods</label>
     <description>Makes cloth and vegetable oil from cotton pods.</description>
     <jobString>Making cloth and vegetable oil.</jobString>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
     <workAmount>307</workAmount>
-    <products>
-      <li>
-        <thingDef>Cloth</thingDef>
-        <count>5</count>
-      </li>
-      <li>
-        <thingDef>MRC_VCore_VegetableOil</thingDef>
-        <count>1</count>
-      </li>
-    </products>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <ingredients>
       <li>
-        <thingDef>MRC_VCore_CottonPod</thingDef>
+        <filter>
+          <thingDefs>
+            <li>MRC_VCore_CottonPod</li>
+          </thingDefs>
+        </filter>
         <count>5</count>
       </li>
     </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>MRC_VCore_CottonPod</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <li><Cloth>5</Cloth></li>
+      <li><MRC_VCore_VegetableOil>1</MRC_VCore_VegetableOil></li>
+    </products>
     <recipeUsers>
       <li>CraftingSpot</li>
     </recipeUsers>
-    </RecipeDef>
+  </RecipeDef>
   
     <RecipeDef ParentName="MRC_VCore_Make_ClothManual5">
      <defName>MRC_VCore_Make_ClothManual25</defName>
      <workAmount>1535</workAmount>
-     <products>
-      <li>
-        <thingDef>Cloth</thingDef>
-        <count>25</count>
-       </li>
-      <li>
-         <thingDef>MRC_VCore_VegetableOil</thingDef>
-        <count>7</count>
-       </li>
-     </products>
      <ingredients>
       <li>
-        <thingDef>MRC_VCore_CottonPod</thingDef>
+        <filter>
+          <thingDefs>
+            <li>MRC_VCore_CottonPod</li>
+          </thingDefs>
+        </filter>
         <count>25</count>
       </li>
-   </ingredients>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>MRC_VCore_CottonPod</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <li><Cloth>25</Cloth></li>
+      <li><MRC_VCore_VegetableOil>7</MRC_VCore_VegetableOil></li>
+    </products>
   </RecipeDef>
 </Defs>
