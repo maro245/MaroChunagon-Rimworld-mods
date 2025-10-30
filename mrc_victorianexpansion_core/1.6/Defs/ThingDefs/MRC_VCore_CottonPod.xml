@@ -17,6 +17,7 @@
     <thingCategories>
       <li>Foods</li>
       <li>Textiles</li>
+      <li>PlantMatter</li>
     </thingCategories>
     <ingestible>
       <optimalityOffsetFeedingAnimals>7</optimalityOffsetFeedingAnimals>
