@@ -5,7 +5,7 @@
     <label>Made cloth and vegetable oil from cotton pods</label>
     <description>Makes cloth and vegetable oil from cotton pods.</description>
     <jobString>Making cloth and vegetable oil.</jobString>
-    <workAmount>615</workAmount>
+    <workAmount>307</workAmount>
     <products>
       <li>
         <thingDef>Cloth</thingDef>
@@ -22,11 +22,14 @@
         <count>5</count>
       </li>
    </ingredients>
+    <recipeUsers>
+      <li>CraftingSpot</li>
+    </recipeUsers>
   <RecipeDef>
 
   <RecipeDef ParentName="MRC_VCore_Make_ClothManual5">
     <defName>MRC_VCore_Make_ClothManual25</defName>
-    <workAmount>3075</workAmount>
+    <workAmount>1535</workAmount>
     <products>
       <li>
         <thingDef>Cloth</thingDef>
