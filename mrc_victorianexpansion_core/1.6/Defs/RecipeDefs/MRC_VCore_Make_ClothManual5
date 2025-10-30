@@ -1,30 +1,47 @@
-<defName>MRC_VCore_Make_ClothManual5</defName>
-<label>make cloth and vegetable oil from cotton pods</label>
-<description>Make cloth and vegetable oil from cotton pods.</description>
-<jobSrting>Making cloth and vegetable oil from cotton pods.</jobSrting>
-<effectWorking>HOGEHOGE</effectWorking>
-<soundWorking>HOGEHOGE</soundWorking>
-<workSkill>HOGEHOGE</workSkill>
-<workAmount>615</workAmount>
-<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-<recipeUsers>
-  <li>CraftingSpot</li>
-</recipeUsers>
-<ingredients>
-  <li>
-    <filter>
-      <thingDefs>
-        <li>MRC_VCore_CottonPod</li>
-      </thingDefs>
-    </filter>
-    <count>5</count>
-  </li>
-<liingredients>
-<fixedIngredientFilter>
-  <thingDefs>
-    <li>MRC_VCore_CottonPod</li>
-  </thingDefs>
-</fixedIngredientFilter>
-<products>
-  HOGEHOGE
-</products>
+<?xml version="1.0" encoding="utf-8" ?>
+<RecipeDefs>
+  <RecipeDef>
+    <defName>MRC_VCore_Make_ClothManual5</defName>
+    <label>Made cloth and vegetable oil from cotton pods</label>
+    <description>Makes cloth and vegetable oil from cotton pods.</description>
+    <jobString>Making cloth and vegetable oil.</jobString>
+    <workAmount>615</workAmount>
+    <products>
+      <li>
+        <thingDef>Cloth</thingDef>
+        <count>5</count>
+      </li>
+      <li>
+        <thingDef>MRC_VCore_VegetableOil</thingDef>
+        <count>1</count>
+      </li>
+    </products>
+    <ingredients>
+      <li>
+        <thingDef>MRC_VCore_CottonPod</thingDef>
+        <count>5</count>
+      </li>
+   </ingredients>
+  <RecipeDef>
+
+  <RecipeDef ParentName="MRC_VCore_Make_ClothManual5">
+    <defName>MRC_VCore_Make_ClothManual25</defName>
+    <workAmount>3075</workAmount>
+    <products>
+      <li>
+        <thingDef>Cloth</thingDef>
+        <count>25</count>
+      </li>
+      <li>
+        <thingDef>MRC_VCore_VegetableOil</thingDef>
+        <count>7</count>
+      </li>
+    </products>
+    <ingredients>
+      <li>
+        <thingDef>MRC_VCore_CottonPod</thingDef>
+        <count>25</count>
+      </li>
+   </ingredients>
+  </RecipeDef>
+</RecipeDefs>
