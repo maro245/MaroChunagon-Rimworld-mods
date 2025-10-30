@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
   <RecipeDef Name="MRC_VCore_Make_ClothManual" Abstract="True">
-    <label>Made cloth and vegetable oil from cotton pods</label>
+    <label>Make cloth and vegetable oil from cotton pods</label>
     <description>Makes cloth and vegetable oil from cotton pods.</description>
     <jobString>Making cloth and vegetable oil.</jobString>
     <effectWorking>Cremate</effectWorking>
@@ -13,7 +13,7 @@
   </RecipeDef>
 
    <RecipeDef ParentName="MRC_VCore_Make_ClothManual">
-    <defName>MRC_VCore_Make_ClothManual5</defName>
+    <defName>MRC_VCore_Make_ClothManual_Five</defName>
     <workAmount>307</workAmount>
     <ingredients>
       <li>
@@ -31,13 +31,13 @@
       </thingDefs>
     </fixedIngredientFilter>
     <products>
-      <li><Cloth>5</Cloth></li>
-      <li><MRC_VCore_VegetableOil>1</MRC_VCore_VegetableOil></li>
+      <Cloth>5</Cloth>
+      <MRC_VCore_VegetableOil>1</MRC_VCore_VegetableOil>
     </products>
   </RecipeDef>
 
   <RecipeDef ParentName="MRC_VCore_Make_ClothManual">
-    <defName>MRC_VCore_Make_ClothManual25</defName>
+    <defName>MRC_VCore_Make_ClothManual_TwentyFive</defName>
     <workAmount>1535</workAmount>
     <ingredients>
       <li>
@@ -55,8 +55,8 @@
       </thingDefs>
     </fixedIngredientFilter>
     <products>
-      <li><Cloth>25</Cloth></li>
-      <li><MRC_VCore_VegetableOil>7</MRC_VCore_VegetableOil></li>
+      <Cloth>25</Cloth>
+      <MRC_VCore_VegetableOil>7</MRC_VCore_VegetableOil>
     </products>
   </RecipeDef>
 </Defs>
