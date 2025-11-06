@@ -411,7 +411,7 @@
   <ThingDef ParentName="LeatherBase">
     <defName>Leather_Rhinoceros</defName>
     <label>rhinoceros leather</label>
-    <description>Tanned, dried, scraped rhinocerous skin. It is exceptionally durable in combat, but provides little protection from weather.</description>
+    <description>Tanned, dried, scraped rhinoceros skin. It is exceptionally durable in combat, but provides little protection from weather.</description>
     <graphicData>
       <color>(150,150,150)</color>
     </graphicData>
