@@ -6,7 +6,7 @@
     <description>hoge hoge...</description>
     <graphicData>
       <graphicClass>Graphic_Multi</graphicClass>
-      <texPath>Things/Building/Production/Mine/Mine</texPath>
+      <texPath>Things/Building/Production/Mine</texPath>
       <drawSize>(5,5)</drawSize>
       <shadowData>
         <volume>(2.5, 2.5, 5.0)</volume>
