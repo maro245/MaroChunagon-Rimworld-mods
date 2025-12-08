@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs</xpath>
+    <value>
+      <ResearchTabDef>
+        <defName>MRC_VCore_Research</defName>
+        <label>Victorian</label>
+        <generalTitle>Victorian Expansion research projects</generalTitle>
+        <generalDescription>Research projects of the early industrial era.</generalDescription>
+      </ResearchTabDef>
+    </value>
+  </Operation>
+</Patch>
