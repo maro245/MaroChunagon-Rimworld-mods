@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!--Textile industry-->
+	<ResearchProjectDef>
+    <defName>MRC_VCore_Textile</defName>
+    <label>textile industry</label>
+    <description>hoge hoge...</description>
+    <baseCost>1</baseCost>
+    <techLevel>Industrial</techLevel>
+    <researchViewX>2.00</researchViewX>
+    <researchViewY>0.00</researchViewY>
+		<prerequisites>
+      <li>ComplexClothing</li>
+			<li>CarpetMaking</li>
+    </prerequisites>
+    <generalRules>
+      <rulesStrings>
+        <li>subject->noun</li>
+        <li>subject_story->worked in an asteroid lab on the edge of populated space</li>
+        <li>subject_gerund->building drug labs</li>
+      </rulesStrings>
+    </generalRules>
+  </ResearchProjectDef>
+	
+	<ResearchProjectDef>
+    <defName>MRC_VCore_CottonMill</defName>
+    <label>cotton mill</label>
+    <description>hoge hoge...</description>
+    <baseCost>1</baseCost>
+    <techLevel>Industrial</techLevel>
+    <researchViewX>2.10</researchViewX>
+    <researchViewY>0.00</researchViewY>
+		<prerequisites>
+      <li>MRC_VCore_Textile</li>
+			<li>MRC_VCore_MechanicalComponent</li>
+    </prerequisites>
+    <generalRules>
+      <rulesStrings>
+        <li>subject->noun</li>
+        <li>subject_story->worked in an asteroid lab on the edge of populated space</li>
+        <li>subject_gerund->building drug labs</li>
+      </rulesStrings>
+    </generalRules>
+  </ResearchProjectDef>
+	
+	<ResearchProjectDef>
+    <defName>MRC_VCore_ArtificialFiber</defName>
+    <label>artificial fiber</label>
+    <description>hoge hoge...</description>
+    <baseCost>1</baseCost>
+    <techLevel>Industrial</techLevel>
+    <researchViewX>5.00</researchViewX>
+    <researchViewY>0.00</researchViewY>
+		<prerequisites>
+      <li>MRC_VCore_CottonMill</li>
+			<li>MRC_VCore_OrganicChemistry</li>
+    </prerequisites>
+    <generalRules>
+      <rulesStrings>
+        <li>subject->noun</li>
+        <li>subject_story->worked in an asteroid lab on the edge of populated space</li>
+        <li>subject_gerund->building drug labs</li>
+      </rulesStrings>
+    </generalRules>
+  </ResearchProjectDef>
+	
+	<!--Chemical industry-->
+	<ResearchProjectDef>
+    <defName>MRC_VCore_Chemical</defName>
+    <label>chemical industry</label>
+    <description>hoge hoge...</description>
+    <baseCost>1</baseCost>
+    <techLevel>Industrial</techLevel>
+    <researchViewX>1.00</researchViewX>
+    <researchViewY>0.35</researchViewY>
+		<prerequisites>
+      <li>Brewing</li>
+    </prerequisites>
+    <generalRules>
+      <rulesStrings>
+        <li>subject->noun</li>
+        <li>subject_story->worked in an asteroid lab on the edge of populated space</li>
+        <li>subject_gerund->building drug labs</li>
+      </rulesStrings>
+    </generalRules>
+  </ResearchProjectDef>
+	
+	<ResearchProjectDef>
+    <defName>MRC_VCore_SodaAsh</defName>
+    <label>soda ash</label>
+    <description>hoge hoge...</description>
+    <baseCost>1</baseCost>
+    <techLevel>Industrial</techLevel>
+    <researchViewX>2.00</researchViewX>
+    <researchViewY>0.35</researchViewY>
+		<prerequisites>
+      <li>MRC_VCore_Chemical</li>
+    </prerequisites>
+    <generalRules>
+      <rulesStrings>
+        <li>subject->noun</li>
+        <li>subject_story->worked in an asteroid lab on the edge of populated space</li>
+        <li>subject_gerund->building drug labs</li>
+      </rulesStrings>
+    </generalRules>
+  </ResearchProjectDef>
+	
+	<ResearchProjectDef>
+    <defName>MRC_VCore_OrganicChemistry</defName>
+    <label>organic chemistry</label>
+    <description>hoge hoge...</description>
+    <baseCost>1</baseCost>
+    <techLevel>Industrial</techLevel>
+    <researchViewX>4.00</researchViewX>
+    <researchViewY>0.35</researchViewY>
+		<prerequisites>
+      <li>MRC_VCore_SodaAsh</li>
+    </prerequisites>
+    <generalRules>
+      <rulesStrings>
+        <li>subject->noun</li>
+        <li>subject_story->worked in an asteroid lab on the edge of populated space</li>
+        <li>subject_gerund->building drug labs</li>
+      </rulesStrings>
+    </generalRules>
+  </ResearchProjectDef>
+	
+	<ResearchProjectDef>
+    <defName>MRC_VCore_Ammonia</defName>
+    <label>ammonia synthesis</label>
+    <description>hoge hoge...</description>
+    <baseCost>1</baseCost>
+    <techLevel>Industrial</techLevel>
+    <researchViewX>5.00</researchViewX>
+    <researchViewY>0.35</researchViewY>
+		<prerequisites>
+      <li>MRC_VCore_SodaAsh</li>
+			<li>MRC_VCore_SteelMill</li>
+    </prerequisites>
+    <generalRules>
+      <rulesStrings>
+        <li>subject->noun</li>
+        <li>subject_story->worked in an asteroid lab on the edge of populated space</li>
+        <li>subject_gerund->building drug labs</li>
+      </rulesStrings>
+    </generalRules>
+  </ResearchProjectDef>
+	
+	<!--Metallurgy-->
+	<ResearchProjectDef>
+    <defName>MRC_VCore_Coke</defName>
+    <label>coke fuel</label>
+    <description>hoge hoge...</description>
+    <baseCost>1</baseCost>
+    <techLevel>Industrial</techLevel>
+    <researchViewX>1.00</researchViewX>
+    <researchViewY>0.70</researchViewY>
+		<prerequisites>
+      <li>Smithing</li>
+    </prerequisites>
+    <generalRules>
+      <rulesStrings>
+        <li>subject->noun</li>
+        <li>subject_story->worked in an asteroid lab on the edge of populated space</li>
+        <li>subject_gerund->building drug labs</li>
+      </rulesStrings>
+    </generalRules>
+  </ResearchProjectDef>
+	
+	<ResearchProjectDef>
+    <defName>MRC_VCore_Puddling</defName>
+    <label>puddling steel</label>
+    <description>hoge hoge...</description>
+    <baseCost>1</baseCost>
+    <techLevel>Industrial</techLevel>
+    <researchViewX>2.00</researchViewX>
+    <researchViewY>0.70</researchViewY>
+		<prerequisites>
+      <li>MRC_VCore_Coke</li>
+    </prerequisites>
+    <generalRules>
+      <rulesStrings>
+        <li>subject->noun</li>
+        <li>subject_story->worked in an asteroid lab on the edge of populated space</li>
+        <li>subject_gerund->building drug labs</li>
+      </rulesStrings>
+    </generalRules>
+  </ResearchProjectDef>
+	
+	<ResearchProjectDef>
+    <defName>MRC_VCore_SteelMill</defName>
+    <label>steel mill</label>
+    <description>hoge hoge...</description>
+    <baseCost>1</baseCost>
+    <techLevel>Industrial</techLevel>
+    <researchViewX>4.00</researchViewX>
+    <researchViewY>0.70</researchViewY>
+		<prerequisites>
+      <li>MRC_VCore_Puddling</li>
+			<li>MRC_VCore_SteamEngine</li>
+    </prerequisites>
+    <generalRules>
+      <rulesStrings>
+        <li>subject->noun</li>
+        <li>subject_story->worked in an asteroid lab on the edge of populated space</li>
+        <li>subject_gerund->building drug labs</li>
+      </rulesStrings>
+    </generalRules>
+  </ResearchProjectDef>
+	
+	<!--Mechanical Engineering-->
+	<ResearchProjectDef>
+    <defName>MRC_VCore_MechanicalComponent</defName>
+    <label>mechanical component</label>
+    <description>hoge hoge...</description>
+    <baseCost>1</baseCost>
+    <techLevel>Industrial</techLevel>
+    <researchViewX>2.00</researchViewX>
+    <researchViewY>1.40</researchViewY>
+		<prerequisites>
+      <li>Smithing</li>
+			<li>ComplexFurniture</li>
+    </prerequisites>
+    <generalRules>
+      <rulesStrings>
+        <li>subject->noun</li>
+        <li>subject_story->worked in an asteroid lab on the edge of populated space</li>
+        <li>subject_gerund->building drug labs</li>
+      </rulesStrings>
+    </generalRules>
+  </ResearchProjectDef>
+
+	<ResearchProjectDef>
+    <defName>MRC_VCore_Standarardization</defName>
+    <label>standardization</label>
+    <description>hoge hoge...</description>
+    <baseCost>1</baseCost>
+    <techLevel>Industrial</techLevel>
+    <researchViewX>3.00</researchViewX>
+    <researchViewY>1.40</researchViewY>
+		<prerequisites>
+      <li>MRC_VCore_MechanicalComponent</li>
+    </prerequisites>
+    <generalRules>
+      <rulesStrings>
+        <li>subject->noun</li>
+        <li>subject_story->worked in an asteroid lab on the edge of populated space</li>
+        <li>subject_gerund->building drug labs</li>
+      </rulesStrings>
+    </generalRules>
+	</ResearchProjectDef>
+		
+	<!--Transportation-->
+	<ResearchProjectDef>
+    <defName>MRC_VCore_HotBalloon</defName>
+    <label>hot balloon</label>
+    <description>hoge hoge...</description>
+    <baseCost>1</baseCost>
+    <techLevel>Industrial</techLevel>
+    <researchViewX>1.00</researchViewX>
+    <researchViewY>1.75</researchViewY>
+		<prerequisites>
+      <li>ComplexClothing</li>
+    </prerequisites>
+    <generalRules>
+      <rulesStrings>
+        <li>subject->noun</li>
+        <li>subject_story->worked in an asteroid lab on the edge of populated space</li>
+        <li>subject_gerund->building drug labs</li>
+      </rulesStrings>
+    </generalRules>
+  </ResearchProjectDef>
+	
+	<ResearchProjectDef>
+    <defName>MRC_VCore_Transportation</defName>
+    <label>transportation</label>
+    <description>hoge hoge...</description>
+    <baseCost>1</baseCost>
+    <techLevel>Industrial</techLevel>
+    <researchViewX>3.00</researchViewX>
+    <researchViewY>1.75</researchViewY>
+		<prerequisites>
+      <li>MRC_VCore_SteamEngine</li>
+    </prerequisites>
+    <generalRules>
+      <rulesStrings>
+        <li>subject->noun</li>
+        <li>subject_story->worked in an asteroid lab on the edge of populated space</li>
+        <li>subject_gerund->building drug labs</li>
+      </rulesStrings>
+    </generalRules>
+  </ResearchProjectDef>
+	
+	<ResearchProjectDef>
+    <defName>MRC_VCore_Infrastructure</defName>
+    <label>infrastructure</label>
+    <description>hoge hoge...</description>
+    <baseCost>1</baseCost>
+    <techLevel>Industrial</techLevel>
+    <researchViewX>4.00</researchViewX>
+    <researchViewY>1.75</researchViewY>
+		<prerequisites>
+      <li>MRC_VCore_Transportation</li>
+    </prerequisites>
+    <generalRules>
+      <rulesStrings>
+        <li>subject->noun</li>
+        <li>subject_story->worked in an asteroid lab on the edge of populated space</li>
+        <li>subject_gerund->building drug labs</li>
+      </rulesStrings>
+    </generalRules>
+  </ResearchProjectDef>
+	
+	<ResearchProjectDef>
+    <defName>MRC_VCore_Mechanization</defName>
+    <label>mechanization</label>
+    <description>hoge hoge...</description>
+    <baseCost>1</baseCost>
+    <techLevel>Industrial</techLevel>
+    <researchViewX>5.00</researchViewX>
+    <researchViewY>1.75</researchViewY>
+		<prerequisites>
+      <li>MRC_VCore_Infrastructure</li>
+			<li>Machining</li>
+    </prerequisites>
+    <generalRules>
+      <rulesStrings>
+        <li>subject->noun</li>
+        <li>subject_story->worked in an asteroid lab on the edge of populated space</li>
+        <li>subject_gerund->building drug labs</li>
+      </rulesStrings>
+    </generalRules>
+  </ResearchProjectDef>
+	
+	<!--Power-->
+	<ResearchProjectDef>
+    <defName>MRC_VCore_SteamEngine</defName>
+    <label>steam engine</label>
+    <description>hoge hoge...</description>
+    <baseCost>1</baseCost>
+    <techLevel>Industrial</techLevel>
+    <researchViewX>1.00</researchViewX>
+    <researchViewY>2.10</researchViewY>
+		<prerequisites>
+      <li>Smithing</li>
+			<li>ComplexFurniture</li>
+    </prerequisites>
+    <generalRules>
+      <rulesStrings>
+        <li>subject->noun</li>
+        <li>subject_story->worked in an asteroid lab on the edge of populated space</li>
+        <li>subject_gerund->building drug labs</li>
+      </rulesStrings>
+    </generalRules>
+  </ResearchProjectDef>
+	
+	<ResearchProjectDef>
+    <defName>MRC_VCore_ACConverter</defName>
+    <label>AC converter</label>
+    <description>hoge hoge...</description>
+    <baseCost>1</baseCost>
+    <techLevel>Industrial</techLevel>
+    <researchViewX>5.00</researchViewX>
+    <researchViewY>2.10</researchViewY>
+		<prerequisites>
+      <li>Batteries</li>
+    </prerequisites>
+    <generalRules>
+      <rulesStrings>
+        <li>subject->noun</li>
+        <li>subject_story->worked in an asteroid lab on the edge of populated space</li>
+        <li>subject_gerund->building drug labs</li>
+      </rulesStrings>
+    </generalRules>
+  </ResearchProjectDef>
+	
+	<!--Weapon-->
+	<ResearchProjectDef>
+    <defName>MRC_VCore_Musket</defName>
+    <label>musket</label>
+    <description>hoge hoge...</description>
+    <baseCost>1</baseCost>
+    <techLevel>Industrial</techLevel>
+    <researchViewX>1.00</researchViewX>
+    <researchViewY>2.45</researchViewY>
+		<prerequisites>
+      <li>Smithing</li>
+			<li>ComplexFurniture</li>
+    </prerequisites>
+    <generalRules>
+      <rulesStrings>
+        <li>subject->noun</li>
+        <li>subject_story->worked in an asteroid lab on the edge of populated space</li>
+        <li>subject_gerund->building drug labs</li>
+      </rulesStrings>
+    </generalRules>
+  </ResearchProjectDef>
+	
+	<ResearchProjectDef>
+    <defName>MRC_VCore_Bullet</defName>
+    <label>conoidal bullet</label>
+    <description>hoge hoge...</description>
+    <baseCost>1</baseCost>
+    <techLevel>Industrial</techLevel>
+    <researchViewX>3.00</researchViewX>
+    <researchViewY>2.45</researchViewY>
+		<prerequisites>
+      <li>Smithing</li>
+			<li>ComplexFurniture</li>
+    </prerequisites>
+    <generalRules>
+      <rulesStrings>
+        <li>subject->noun</li>
+        <li>subject_story->worked in an asteroid lab on the edge of populated space</li>
+        <li>subject_gerund->building drug labs</li>
+      </rulesStrings>
+    </generalRules>
+  </ResearchProjectDef>
+</Defs>
