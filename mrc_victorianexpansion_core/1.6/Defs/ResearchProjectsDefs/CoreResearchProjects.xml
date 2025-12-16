@@ -29,7 +29,7 @@
     <description>hoge hoge...</description>
     <baseCost>1</baseCost>
     <techLevel>Industrial</techLevel>
-    <researchViewX>2.10</researchViewX>
+    <researchViewX>3.00</researchViewX>
     <researchViewY>0.00</researchViewY>
 		<prerequisites>
       <li>MRC_VCore_Textile</li>
