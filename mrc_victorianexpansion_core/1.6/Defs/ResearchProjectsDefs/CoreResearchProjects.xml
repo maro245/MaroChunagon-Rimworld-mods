@@ -75,7 +75,7 @@
     <baseCost>1</baseCost>
     <techLevel>Industrial</techLevel>
     <researchViewX>1.00</researchViewX>
-    <researchViewY>0.35</researchViewY>
+    <researchViewY>0.70</researchViewY>
 		<prerequisites>
       <li>Brewing</li>
     </prerequisites>
@@ -96,7 +96,7 @@
     <baseCost>1</baseCost>
     <techLevel>Industrial</techLevel>
     <researchViewX>2.00</researchViewX>
-    <researchViewY>0.35</researchViewY>
+    <researchViewY>0.70</researchViewY>
 		<prerequisites>
       <li>MRC_VCore_Chemical</li>
     </prerequisites>
@@ -117,7 +117,7 @@
     <baseCost>1</baseCost>
     <techLevel>Industrial</techLevel>
     <researchViewX>4.00</researchViewX>
-    <researchViewY>0.35</researchViewY>
+    <researchViewY>0.70</researchViewY>
 		<prerequisites>
       <li>MRC_VCore_SodaAsh</li>
     </prerequisites>
@@ -138,7 +138,7 @@
     <baseCost>1</baseCost>
     <techLevel>Industrial</techLevel>
     <researchViewX>5.00</researchViewX>
-    <researchViewY>0.35</researchViewY>
+    <researchViewY>0.70</researchViewY>
 		<prerequisites>
       <li>MRC_VCore_SodaAsh</li>
 			<li>MRC_VCore_SteelMill</li>
@@ -161,7 +161,7 @@
     <baseCost>1</baseCost>
     <techLevel>Industrial</techLevel>
     <researchViewX>1.00</researchViewX>
-    <researchViewY>0.70</researchViewY>
+    <researchViewY>1.40</researchViewY>
 		<prerequisites>
       <li>Smithing</li>
     </prerequisites>
@@ -182,7 +182,7 @@
     <baseCost>1</baseCost>
     <techLevel>Industrial</techLevel>
     <researchViewX>2.00</researchViewX>
-    <researchViewY>0.70</researchViewY>
+    <researchViewY>1.40</researchViewY>
 		<prerequisites>
       <li>MRC_VCore_Coke</li>
     </prerequisites>
@@ -203,7 +203,7 @@
     <baseCost>1</baseCost>
     <techLevel>Industrial</techLevel>
     <researchViewX>4.00</researchViewX>
-    <researchViewY>0.70</researchViewY>
+    <researchViewY>1.40</researchViewY>
 		<prerequisites>
       <li>MRC_VCore_Puddling</li>
 			<li>MRC_VCore_SteamEngine</li>
@@ -226,7 +226,7 @@
     <baseCost>1</baseCost>
     <techLevel>Industrial</techLevel>
     <researchViewX>2.00</researchViewX>
-    <researchViewY>1.40</researchViewY>
+    <researchViewY>2.10</researchViewY>
 		<prerequisites>
       <li>Smithing</li>
 			<li>ComplexFurniture</li>
@@ -248,7 +248,7 @@
     <baseCost>1</baseCost>
     <techLevel>Industrial</techLevel>
     <researchViewX>3.00</researchViewX>
-    <researchViewY>1.40</researchViewY>
+    <researchViewY>2.10</researchViewY>
 		<prerequisites>
       <li>MRC_VCore_MechanicalComponent</li>
     </prerequisites>
@@ -270,7 +270,7 @@
     <baseCost>1</baseCost>
     <techLevel>Industrial</techLevel>
     <researchViewX>1.00</researchViewX>
-    <researchViewY>1.75</researchViewY>
+    <researchViewY>3.50</researchViewY>
 		<prerequisites>
       <li>ComplexClothing</li>
     </prerequisites>
@@ -291,7 +291,7 @@
     <baseCost>1</baseCost>
     <techLevel>Industrial</techLevel>
     <researchViewX>3.00</researchViewX>
-    <researchViewY>1.75</researchViewY>
+    <researchViewY>3.50</researchViewY>
 		<prerequisites>
       <li>MRC_VCore_SteamEngine</li>
     </prerequisites>
@@ -312,7 +312,7 @@
     <baseCost>1</baseCost>
     <techLevel>Industrial</techLevel>
     <researchViewX>4.00</researchViewX>
-    <researchViewY>1.75</researchViewY>
+    <researchViewY>3.50</researchViewY>
 		<prerequisites>
       <li>MRC_VCore_Transportation</li>
     </prerequisites>
@@ -333,7 +333,7 @@
     <baseCost>1</baseCost>
     <techLevel>Industrial</techLevel>
     <researchViewX>5.00</researchViewX>
-    <researchViewY>1.75</researchViewY>
+    <researchViewY>3.50</researchViewY>
 		<prerequisites>
       <li>MRC_VCore_Infrastructure</li>
 			<li>Machining</li>
@@ -356,7 +356,7 @@
     <baseCost>1</baseCost>
     <techLevel>Industrial</techLevel>
     <researchViewX>1.00</researchViewX>
-    <researchViewY>2.10</researchViewY>
+    <researchViewY>2.80</researchViewY>
 		<prerequisites>
       <li>Smithing</li>
 			<li>ComplexFurniture</li>
@@ -378,7 +378,7 @@
     <baseCost>1</baseCost>
     <techLevel>Industrial</techLevel>
     <researchViewX>5.00</researchViewX>
-    <researchViewY>2.10</researchViewY>
+    <researchViewY>2.80</researchViewY>
 		<prerequisites>
       <li>Batteries</li>
     </prerequisites>
@@ -400,7 +400,7 @@
     <baseCost>1</baseCost>
     <techLevel>Industrial</techLevel>
     <researchViewX>1.00</researchViewX>
-    <researchViewY>2.45</researchViewY>
+    <researchViewY>4.20</researchViewY>
 		<prerequisites>
       <li>Smithing</li>
 			<li>ComplexFurniture</li>
@@ -422,7 +422,7 @@
     <baseCost>1</baseCost>
     <techLevel>Industrial</techLevel>
     <researchViewX>3.00</researchViewX>
-    <researchViewY>2.45</researchViewY>
+    <researchViewY>4.20</researchViewY>
 		<prerequisites>
       <li>Smithing</li>
 			<li>ComplexFurniture</li>
