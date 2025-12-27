@@ -27,12 +27,12 @@
       <isEdifice>false</isEdifice>
       <canLandGravshipOn>true</canLandGravshipOn>
       <blueprintGraphicData>
-        <texPath>Things/Building/Linked/PowerConduit_Blueprint_Atlas</texPath>
+        <texPath>Things/Building/Linked/LineShaft_Blueprint_Atlas</texPath>
       </blueprintGraphicData>
       <canConstructInCorner>true</canConstructInCorner>
     </building>
     <drawerType>MapMeshOnly</drawerType>
-    <altitudeLayer>Conduits</altitudeLayer>
+    <altitudeLayer>BuildingOnTop</altitudeLayer>
     <passability>Standable</passability>
     <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
     <resourcesFractionWhenDeconstructed>0</resourcesFractionWhenDeconstructed>
