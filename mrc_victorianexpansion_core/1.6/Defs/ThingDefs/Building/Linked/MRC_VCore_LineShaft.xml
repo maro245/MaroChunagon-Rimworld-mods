@@ -10,6 +10,7 @@
     <graphicData>
       <texPath>Things/Building/Linked/LineShaft_Atlas</texPath>
       <graphicClass>Graphic_Single</graphicClass>
+			<drawOffset>(0,0,0.9)</drawOffset>
       <linkType>Transmitter</linkType>
       <linkFlags>
         <li>PowerCond
