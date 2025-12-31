@@ -72,9 +72,7 @@
         <heatPerSecond>120</heatPerSecond>
       </li>
       <li Class="CompProperties_Breakdownable"/>
-			<li Class="CompProperties_ActiveTexture">
-				<texPath>Things/Building/Power/SteamEngine_Active</texPath>
-			</li>
+			<li Class="CompProperties_ActiveTexture"/>
     </comps>
     <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
     <designationCategory>Power</designationCategory>
