@@ -16,7 +16,7 @@
         <offset>(0,0,1)</offset>
       </shadowData>
     </graphicData>
-		<uiIconPath>Things/Building/Power/SteamEngine/SteamEngine_Idle_MenuIcon</uiIconPath>
+		<uiIconPath>Things/Building/Power/SteamEngine/SteamEngine_MenuIcon</uiIconPath>
     <altitudeLayer>Building</altitudeLayer>
     <passability>PassThroughOnly</passability>
     <fillPercent>0.9</fillPercent>
